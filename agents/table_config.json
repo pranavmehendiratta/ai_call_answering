@@ -1,0 +1,26 @@
+{
+    "TABLES": {
+        "T1": {
+            "seats_up_to": 2,
+            "num_of_tables": 5
+        },
+        "T2": {
+            "seats_up_to": 4,
+            "num_of_tables": 5
+        },
+        "T3": {
+            "seats_up_to": 6,
+            "num_of_tables": 10
+        }
+    },
+    "BALLROOMS": {
+        "B1": {
+            "min_capacity": 25,
+            "max_capacity": 50
+        },
+        "B2": {
+            "min_capacity": 50,
+            "max_capacity": 100
+        }
+    }
+}

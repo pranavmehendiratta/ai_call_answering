@@ -1,0 +1,14 @@
+langchain
+openai
+python-dateutil
+tzlocal
+flask-sock
+webrtcvad
+pydub
+pytz
+google-api-python-client 
+google-auth-httplib2 
+google-auth-oauthlib
+elevenlabs
+lancedb
+python-dotenv

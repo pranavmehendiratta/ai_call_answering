@@ -1,0 +1,346 @@
+{
+    "restaurant_types": {
+        "fast_food": {
+            "services": [
+                "drive-through_service",
+                "takeout",
+                "delivery",
+                "self-service",
+                "digital_ordering",
+                "limited_dine-in_seating"
+            ]
+        },
+        "fast_casual": {
+            "services": [
+                "counter_ordering",
+                "takeout",
+                "delivery",
+                "digital_ordering",
+                "dine-in_seating",
+                "self-service_drink_stations",
+                "catering"
+            ]
+        },
+        "casual_dining": {
+            "services": [
+                "table_service",
+                "bar_or_drink_service",
+                "takeout",
+                "delivery",
+                "reservations",
+                "digital_ordering",
+                "catering",
+                "live_music_or_entertainment"
+            ]
+        },
+        "fine_dining": {
+            "services": [
+                "full_table_service",
+                "reservations",
+                "valet_parking",
+                "tasting_menus",
+                "private_dining_rooms",
+                "tailored_dietary_accommodations",
+                "wine_pairing_services",
+                "personalized_attention"
+            ]
+        },
+        "cafe_or_bistro": {
+            "services": [
+                "counter_service",
+                "table_service",
+                "takeout",
+                "outdoor_seating",
+                "local_delivery",
+                "live_music_or_entertainment",
+                "coffee_subscriptions"
+            ]
+        },
+        "buffet_all_you_can_eat": {
+            "services": [
+                "self-service",
+                "drink_service",
+                "group_or_event_reservations",
+                "specialty_nights"
+            ]
+        },
+        "food_trucks_or_food_carts": {
+            "services": [
+                "takeout",
+                "catering",
+                "rotation_of_locations",
+                "digital_ordering"
+            ]
+        },
+        "pop_up_restaurants": {
+            "services": [
+                "limited-time_table_service",
+                "reservations",
+                "unique_and_rotating_menus",
+                "collaborations"
+            ]
+        },
+        "themed_restaurants": {
+            "services": [
+                "table_service",
+                "takeout",
+                "delivery",
+                "merchandise_sales",
+                "entertainment_or_experiences"
+            ]
+        },
+        "diners": {
+            "services": [
+                "table_service",
+                "bar_or_drink_service",
+                "takeout",
+                "extended_or_24-hour_service"
+            ]
+        }
+    },
+    "services": [
+        "drive-through_service",
+        "takeout",
+        "delivery",
+        "self-service",
+        "digital_ordering",
+        "limited_dine-in_seating",
+        "counter_ordering",
+        "dine-in_seating",
+        "self-service_drink_stations",
+        "catering",
+        "table_service",
+        "bar_or_drink_service",
+        "reservations",
+        "live_music_or_entertainment",
+        "full_table_service",
+        "valet_parking",
+        "tasting_menus",
+        "private_dining_rooms",
+        "tailored_dietary_accommodations",
+        "wine_pairing_services",
+        "personalized_attention",
+        "counter_service",
+        "outdoor_seating",
+        "local_delivery",
+        "coffee_subscriptions",
+        "drink_service",
+        "group_or_event_reservations",
+        "specialty_nights",
+        "rotation_of_locations",
+        "limited-time_table_service",
+        "unique_and_rotating_menus",
+        "collaborations",
+        "merchandise_sales",
+        "entertainment_or_experiences",
+        "extended_or_24-hour_service"
+    ],
+    "services_questions": {
+        "drive-through_service": [
+            "Do you have a drive-through option?",
+            "What are the drive-through hours?",
+            "Is the full menu available at the drive-through?",
+            "Can I pay with credit card at the drive-through?"
+        ],
+        "takeout": [
+            "Do you offer takeout options?",
+            "Is there a separate menu for takeout?",
+            "How do I place a takeout order?",
+            "Do I need to come inside to pick up my takeout order?"
+        ],
+        "delivery": [
+            "Do you provide home delivery?",
+            "What is the delivery radius?",
+            "Is there a delivery fee?",
+            "How long does delivery usually take?"
+        ],
+        "self-service": [
+            "Is there a self-service section?",
+            "Are drink refills free with self-service?",
+            "Do I need to clean up after using the self-service area?"
+        ],
+        "digital_ordering": [
+            "Can I place my order online?",
+            "Do you have a mobile app for ordering?",
+            "Is there a discount for first-time digital orders?",
+            "Can I track my order once it's placed online?"
+        ],
+        "limited_dine-in_seating": [
+            "Do you have indoor seating?",
+            "Is there a wait time for seating?",
+            "Do you follow any COVID-19 guidelines for dine-in?",
+            "Is there a time limit for diners?"
+        ],
+        "counter_ordering": [
+            "Do I order at the counter?",
+            "Can I customize my order at the counter?",
+            "Are condiments available at the counter?"
+        ],
+        "dine-in_seating": [
+            "How many people can sit at one table?",
+            "Can I reserve a table in advance?",
+            "Do you have booth seating?"
+        ],
+        "self-service_drink_stations": [
+            "Where is the drink station located?",
+            "Do you offer unlimited refills?",
+            "Are there different drink options available?"
+        ],
+        "catering": [
+            "Do you offer catering services?",
+            "What's the minimum number of people for catering?",
+            "How much advance notice do you need for catering?",
+            "Do you deliver catering orders?"
+        ],
+        "table_service": [
+            "Do you require reservations for table service?",
+            "Is there a waitlist system for busy times?",
+            "Do you provide special accommodations, like high-chairs or accessibility options?",
+            "Is there a dress code for the dining area?"
+        ],
+        "bar_or_drink_service": [
+            "Do you serve alcoholic beverages?",
+            "Is there a happy hour or special drink promotions?",
+            "Do I need an ID to order alcoholic drinks?",
+            "Can I order drinks to-go?"
+        ],
+        "reservations": [
+            "How far in advance do I need to make a reservation?",
+            "Can I make a reservation online or through an app?",
+            "Is there a cancellation policy or fee?",
+            "Do you hold reservations if someone is late?"
+        ],
+        "live_music_or_entertainment": [
+            "What days do you have live music?",
+            "Is there an additional cover charge for entertainment nights?",
+            "Do I need to make a reservation for nights with special events?",
+            "Can I request a song or interact with the performers?"
+        ],
+        "full_table_service": [
+            "Is gratuity automatically added for larger parties?",
+            "Can I request a specific server?",
+            "Do servers assist with wine or dish recommendations?",
+            "Are there special courses or tasting options?"
+        ],
+        "valet_parking": [
+            "Is there a fee for valet service?",
+            "Is tipping expected for valet staff?",
+            "How do I request my car when I'm ready to leave?",
+            "Are my belongings safe in the car during valet service?"
+        ],
+        "tasting_menus": [
+            "How often does the tasting menu change?",
+            "Is there a wine pairing option with the tasting menu?",
+            "Can I modify the tasting menu for dietary restrictions?",
+            "How many courses are in the tasting menu?"
+        ],
+        "private_dining_rooms": [
+            "How many people can the private dining room accommodate?",
+            "Is there a rental fee for the private room?",
+            "Can I customize the menu for private dining?",
+            "Do I need to reserve the room in advance?"
+        ],
+        "tailored_dietary_accommodations": [
+            "Can you accommodate vegan or vegetarian diets?",
+            "How do you handle severe food allergies?",
+            "Do you offer halal or kosher options?",
+            "Can I see a list of ingredients for specific dishes?"
+        ],
+        "wine_pairing_services": [
+            "Is there a sommelier on staff?",
+            "Can I request wine pairings for any dish on the menu?",
+            "Is there a wine pairing fee?",
+            "Do you offer wine tasting events?"
+        ],
+        "personalized_attention": [
+            "Do you provide services for special occasions like anniversaries or birthdays?",
+            "Can I request a personalized menu or dish?",
+            "Is there a personal dining concierge or host for special requests?",
+            "Can I request specific table decorations or settings?"
+        ],
+        "counter_service": [
+            "Is there a separate line for pick-up versus ordering?",
+            "Can I see the food being prepared at the counter?",
+            "Do you offer samples of certain items?",
+            "Is there a system to alert me when my order is ready?"
+        ],
+        "outdoor_seating": [
+            "Is the outdoor seating area heated or covered?",
+            "Do I need a reservation for patio seating?",
+            "Is smoking allowed in the outdoor area?",
+            "Are pets allowed in the outdoor seating area?"
+        ],
+        "local_delivery": [
+            "How far do you deliver?",
+            "Is there a delivery fee?",
+            "How can I track my delivery order?",
+            "Do you use third-party delivery services or your own drivers?"
+        ],
+        "coffee_subscriptions": [
+            "What types of coffee can I include in my subscription?",
+            "How often is coffee delivered?",
+            "Can I gift a coffee subscription to someone?",
+            "Is it easy to pause or modify my subscription?"
+        ],
+        "drink_service": [
+            "Do you offer refills on soft drinks?",
+            "Are there specialty drinks or seasonal beverages available?",
+            "Do you serve alcoholic beverages?",
+            "Is tap water available upon request?"
+        ],
+        "group_or_event_reservations": [
+            "What's the maximum group size you can accommodate?",
+            "Is there a set menu for large groups?",
+            "Do you require a deposit for group reservations?",
+            "Can I bring my own cake or decor for special events?"
+        ],
+        "specialty_nights": [
+            "What themes or cuisines are featured on specialty nights?",
+            "Is there a different price for specialty nights?",
+            "Do I need to reserve a spot for themed events?",
+            "Are costumes or themed attire encouraged?"
+        ],
+        "rotation_of_locations": [
+            "How often do you change locations?",
+            "How can I find out your current location?",
+            "Do you announce new locations in advance?",
+            "Do you have a regular spot or rotation?"
+        ],
+        "limited-time_table_service": [
+            "How often do you change the limited-time menu?",
+            "Can I book in advance for limited-time events?",
+            "Do you collaborate with guest chefs for these events?",
+            "Is there a special price or set menu for these occasions?"
+        ],
+        "unique_and_rotating_menus": [
+            "How often does the menu change?",
+            "Are there staple dishes that remain consistent?",
+            "Do you source local ingredients for the rotating menus?",
+            "Is there a way to be notified about menu changes?"
+        ],
+        "collaborations": [
+            "Who are some of the chefs or brands you've collaborated with?",
+            "Do you have upcoming collaboration events?",
+            "How can I get tickets or reserve a spot for collaboration events?",
+            "Are collaboration menus available for a limited time?"
+        ],
+        "merchandise_sales": [
+            "What kind of merchandise do you sell?",
+            "Can I purchase merchandise online?",
+            "Do you offer branded gift cards or vouchers?",
+            "Is there a return or exchange policy for merchandise?"
+        ],
+        "entertainment_or_experiences": [
+            "What kind of entertainment do you offer?",
+            "Are there age restrictions for certain entertainment events?",
+            "Do I need to book in advance for experiences?",
+            "Is there an additional charge for special experiences?"
+        ],
+        "extended_or_24-hour_service": [
+            "Are you open 24/7?",
+            "Is the full menu available during late-night hours?",
+            "Is security a concern during late hours?",
+            "Do you have special late-night or early morning deals?"
+        ]
+    }
+}
